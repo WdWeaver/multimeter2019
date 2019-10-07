@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "STM32",
+            "includePath": [
+                "${workspaceFolder}/Inc/**",
+                "${workspaceFolder}/Drivers/**",
+                "${workspaceFolder}/Middlewares/**",
+                "/opt/gnuarm/arm-none-eabi/include",
+                "/opt/gnuarm/lib/gcc/arm-none-eabi/8.3.1/include"
+            ],
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32F103xB"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "/opt/gnuarm/arm-none-eabi/include",
+                    "/opt/gnuarm/lib/gcc/arm-none-eabi/8.3.1/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }        
+    ],
+    "version": 4
+}
