@@ -326,10 +326,11 @@ static void MX_TIM2_Init(void)
   /* USER CODE BEGIN TIM2_Init 1 */
 
   /* USER CODE END TIM2_Init 1 */
+  //72000000/1310/21=2617.23009815Hz
   htim2.Instance = TIM2;
-  htim2.Init.Prescaler = 899;                  //72000000/900=80000
+  htim2.Init.Prescaler = 1309;
   htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim2.Init.Period = 29;                       //80000/30=2666.666
+  htim2.Init.Period = 20;
   htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_ENABLE;
   if (HAL_TIM_Base_Init(&htim2) != HAL_OK)
