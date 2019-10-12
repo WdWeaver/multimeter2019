@@ -57,18 +57,7 @@ Src/system_stm32f1xx.c \
 Src/mcp23x17.c \
 Src/panel.c \
 Src/can.c \
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c \
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c \
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c \
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c \
-Src/usb_device.c \
-Src/usbd_conf.c \
-Src/usbd_desc.c \
-Src/usbd_cdc_if.c \
-Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c \
-Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c \
-Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c \
-Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c 
 
 
 # ASM sources
